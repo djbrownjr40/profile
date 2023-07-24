@@ -1,0 +1,108 @@
+body {
+  background-color: #1C2321;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: #5D737E;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #9197AE;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+a {
+  color: #273043;
+  -webkit-transition:color 1s linear;
+   -moz-transition:color 1s linear;
+   -o-transition:color 1s linear;
+   transition:color 1s linear;
+}
+
+a:hover {
+  color: #F02D3A;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#img-circle {
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  border: solid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: #F5EFED;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn {
+  background-color: #273043;
+  color: #EFF6EE;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
